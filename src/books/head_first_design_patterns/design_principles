@@ -1,3 +1,10 @@
 Intro to Design Patterns: Welcome to design patterns
     Principle 01: Identify the aspects of your application that vary and separate them from what stays the same.
+        - Take the parts that vary and encapsulate them, so that later you can alter or extend the parts
+        that vary without affecting those that don't.
+        - Take what varies and "encapsulate" it so it won't affect the rest of your code.
+        - The result? Fewer unintended consequences from code changes and more flexibility in your systems!
+
     Principle 02: Program to an interface, not an implementation.
+        - Use an interface to represent each behavior that tends to vary. Each implementation of a behaviour will
+        implement one of those interfaces.
