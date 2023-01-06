@@ -1,4 +1,4 @@
-Intro to Design Patterns: Welcome to design patterns
+Intro to Design Patterns: Welcome to design patterns [Strategy Pattern]
     Principle 01: Identify the aspects of your application that vary and separate them from what stays the same.
         - Take the parts that vary and encapsulate them, so that later you can alter or extend the parts
         that vary without affecting those that don't.
@@ -8,3 +8,9 @@ Intro to Design Patterns: Welcome to design patterns
     Principle 02: Program to an interface, not an implementation.
         - Use an interface to represent each behavior that tends to vary. Each implementation of a behaviour will
         implement one of those interfaces.
+
+    Principle 03: Favor composition over inheritance.
+        - Composition gives a lot more flexibility then inheritance.
+        - It lets you encapsulate a family of algorithms into their own set of classes.
+        - It also lets you change behavior at runtime as long as the object you're composing with implements the
+        correct behavior interface.
