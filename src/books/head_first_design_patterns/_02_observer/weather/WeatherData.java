@@ -1,4 +1,4 @@
-package books.head_first_design_patterns._02_observer;
+package books.head_first_design_patterns._02_observer.weather;
 
 import java.util.ArrayList;
 import java.util.List;
