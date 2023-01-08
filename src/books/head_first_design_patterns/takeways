@@ -32,4 +32,16 @@ Chapter 01: Intro to design patterns: Welcome to design patterns [Strategy Patte
         - Most patterns and principle address issues of change in software.
         - Most patterns allow some part of a system to vary independently of all other parts.
         - We often try to take what varies in a system and encapsulate it.
-        - Patterns provide a shared language that can maximize the value of your communication with other developers. 
+        - Patterns provide a shared language that can maximize the value of your communication with other developers.
+
+
+Chapter 02: The Observer Pattern: Keeping your Objects in the Know [Observer Pattern]
+    # The Observer Pattern.
+        - Defines a one-to-many dependency between objects so that when one object changes state, all of its
+        dependents are notified and updated automatically.
+        - A newspaper subscription, with its publishers and subscribers, is a good way to visualize the pattern.
+
+    # Observer pattern vs Publish-Subscribe pattern.
+        - Although they are related, Publish-Subscribe pattern is a more complex pattern that allows subscribers to
+        express interest in different types of messages and further separates publishers from subscribers. It is
+        often used in middleware systems.

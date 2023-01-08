@@ -14,3 +14,9 @@ Intro to Design Patterns: Welcome to design patterns [Strategy Pattern]
         - It lets you encapsulate a family of algorithms into their own set of classes.
         - It also lets you change behavior at runtime as long as the object you're composing with implements the
         correct behavior interface.
+
+
+The Observer Pattern: Keeping your Objects in the Know [Observer Pattern]
+    Principle 04: Strive for loosely coupled designs between objects that interact.
+        - Loosely coupled designs allow us to build flexible OO systems that can handle change because
+        they minimize the interdependency between objects.
