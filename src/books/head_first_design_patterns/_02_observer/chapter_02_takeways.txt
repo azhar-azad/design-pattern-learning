@@ -1,0 +1,41 @@
+Chapter 02: The Observer Pattern: Keeping your Objects in the Know [Observer Pattern]
+    # The Observer Pattern.
+        - Defines a one-to-many dependency between objects so that when one object changes state, all of its
+        dependents are notified and updated automatically.
+        - A newspaper subscription, with its publishers and subscribers, is a good way to visualize the pattern.
+
+    # Observer pattern vs Publish-Subscribe pattern.
+        - Although they are related, Publish-Subscribe pattern is a more complex pattern that allows subscribers to
+        express interest in different types of messages and further separates publishers from subscribers. It is
+        often used in middleware systems.
+
+    # Bullet Points
+        - The Observer Pattern defines a one-to-many relationship between objects.
+        - Subjects update Observers using a common interface.
+        - Observers of any concrete type can participate in the pattern as long as they implement the Observer interface.
+        - Observers are loosely coupled in that the Subject knows nothing about them, other than that they implement the
+        Observer interface.
+        - You can push or pull data from the Subject when using the pattern (pull is considered more "correct").
+        - Swing makes heavy use of the Observer Pattern, as do many GUI framework.
+        - You'll also find the pattern in many other places, including RxJava, JavaBeans, and RMI, as well as in other
+        language frameworks, like Cocoa, Swift, and JavaScript events.
+        - The Observer Pattern is related to the Publish/Subscribe Pattern, which is for more complex situations with
+        multiple Subjects and/or multiple message types.
+        - The Observer Pattern is a commonly used pattern, and we'll see it again when we learn about Model-View-Controller.
+
+    # How the Observer Pattern makes use of the design principles?
+        Principle 01: Identify the aspects of your application that vary and separate them from what stays the same.
+        - The thing that varies in the Observer Pattern is the state of the Subject and the number and types of
+        Observers. With this pattern, you can vary the objects that are dependent on the state of the Subject, without
+        having to change that Subject.
+
+        Principle 02: Program to an interface, not an implementation.
+        - Both the Subject and the Observers use interfaces. The Subject keeps track of objects implementing the
+        Observer interface, while the Observers register with, and get notified by, the Subject interface. As we've seen
+        this keeps things nice and loosely coupled.
+
+        Principle 03: Favor composition over inheritance.
+        - The Observer Pattern uses composition to compose any number of Observers with their Subject. These
+        relationships aren't set up by some kind of inheritance hierarchy. No, they are set up at runtime by composition!
+
+        Principle 04: Strive for loosely coupled designs between objects that interact.

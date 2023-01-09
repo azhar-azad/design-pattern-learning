@@ -1,0 +1,35 @@
+Chapter 01: Intro to design patterns: Welcome to design patterns [Strategy Pattern]
+    # Separate what changes from what stays the same.
+        - We know that fly() and quack() are the parts of the Duck class that vary across ducks. To separate these
+        behaviors from the Duck class, we'll pull both methods out of the Duck class and create a new set of classes to
+        represent each behavior.
+
+    # Program to interface.
+        - The Duck behaviors will live in a separate class - a class that implements a particular behavior interface.
+        - That way, the Duck classes(super & sub) won't need to know any of the implementation details for their own behaviors.
+        - “Program to an interface” really means “Program to a supertype.” You can program to an interface without
+        having to actually use a Java interface.
+        - We could rephrase "program to a supertype" as "the declared type of the variables should be a supertype,
+        usually an abstract class or interface, so that the objects assigned to those variables can be of any concrete
+        implementation of the supertype, which means the class declaring them doesn't have to know about the actual
+        object types!"
+
+    # Use composition over inheritance.
+        - When you put two classes together like our example, you're using composition. Instead of inheriting their behavior,
+        the ducks get their behavior by being composed with the right behavior object.
+
+    # The Strategy Pattern.
+        - Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+        - Strategy lets the algorithm vary independently from clients that use it.
+
+    # Bullet Points
+        - Knowing the OO basics does not make you a good designer.
+        - Good OO designs are reusable, extensible and maintainable.
+        - Patterns show you how to build systems with good OO design qualities.
+        - Patterns are proven object-oriented experience.
+        - Patterns don't give you code, they give you general solutions to design problems. You apply them to your specific application.
+        - Patterns aren't invented, they are discovered.
+        - Most patterns and principle address issues of change in software.
+        - Most patterns allow some part of a system to vary independently of all other parts.
+        - We often try to take what varies in a system and encapsulate it.
+        - Patterns provide a shared language that can maximize the value of your communication with other developers.
