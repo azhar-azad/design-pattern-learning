@@ -31,3 +31,5 @@ The Decorator Pattern: Decorating Objects [Decorator Pattern]
         modification.
         - Be careful when choosing the areas of code that need to be extended; applying the Open-Closed Principle
         everywhere is wasteful and unnecessary, and can lead to complex, hard-to-understand code.
+
+The Factory Pattern: Baking with OO Goodness [Factory Pattern]

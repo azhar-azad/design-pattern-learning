@@ -1,0 +1,2 @@
+The Factory Pattern: Baking with OO Goodness [Factory Pattern]
+    #
