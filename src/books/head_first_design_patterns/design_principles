@@ -20,3 +20,14 @@ The Observer Pattern: Keeping your Objects in the Know [Observer Pattern]
     Principle 04: Strive for loosely coupled designs between objects that interact.
         - Loosely coupled designs allow us to build flexible OO systems that can handle change because
         they minimize the interdependency between objects.
+
+
+The Decorator Pattern: Decorating Objects [Decorator Pattern]
+    Principle 05: Classes should be open for extension, but closed for modification.
+        - Allow classes to be easily extended to incorporate new behavior without modifying existing code.
+        - We get designs that are resilient to change and flexible enough to take on new functionality to meet
+        changing requirements.
+        - While it may seem like a contradiction, there are techniques for allowing code to be extended without direct
+        modification.
+        - Be careful when choosing the areas of code that need to be extended; applying the Open-Closed Principle
+        everywhere is wasteful and unnecessary, and can lead to complex, hard-to-understand code.
