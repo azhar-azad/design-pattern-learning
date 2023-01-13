@@ -1,2 +1,10 @@
 The Factory Pattern: Baking with OO Goodness [Factory Pattern]
-    #
+    # What's wrong with "new"?
+        - It's a fundamental part of most modern object-oriented languages and technically there's nothing wrong with
+        the "new" operator. The real culprit is "CHANGE" and how change impacts our use of new.
+        - If your code is written to an interface, then it will work with any new classes implementing that interface
+        through polymorphism.
+        - However, when you have code that makes use of lots of concrete classes, you're looking for trouble because
+        that code may have to be changed as new concrete classes are added.
+        - So, in other words, your code will not be "closed to modification". To extend your code with new concrete
+        types, you'll have to reopen it.
