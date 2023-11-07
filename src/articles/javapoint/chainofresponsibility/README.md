@@ -1,0 +1,1 @@
+[Article Link](https://www.javatpoint.com/chain-of-responsibility-pattern)
