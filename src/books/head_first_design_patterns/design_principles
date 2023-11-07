@@ -33,3 +33,4 @@ The Decorator Pattern: Decorating Objects [Decorator Pattern]
         everywhere is wasteful and unnecessary, and can lead to complex, hard-to-understand code.
 
 The Factory Pattern: Baking with OO Goodness [Factory Pattern]
+    Principle 06: Depend upon abstractions. Do not depend upon concrete classes.

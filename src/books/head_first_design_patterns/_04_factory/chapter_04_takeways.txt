@@ -8,3 +8,9 @@ The Factory Pattern: Baking with OO Goodness [Factory Pattern]
         that code may have to be changed as new concrete classes are added.
         - So, in other words, your code will not be "closed to modification". To extend your code with new concrete
         types, you'll have to reopen it.
+
+    # The Factory Method Pattern.
+        - Defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory
+        Method lets a class defer instantiation to subclasses.
+        - The abstract Creator class (PizzaStore) gives you an interface with a method for creating objects, also known
+        as the "factory method". Only subclasses actually implement the factory method and create products.
